@@ -180,6 +180,7 @@ namespace OpenAI
     public sealed class CreateImageRequest: CreateImageRequestBase
     {
         public string Prompt { get; set; }
+        public string Model { get; set; }
     }
     
     public sealed class CreateImageEditRequest: CreateImageRequestBase
